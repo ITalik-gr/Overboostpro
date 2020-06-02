@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: VoxRound;
+  margin: 0;
+}
+*,*::before,*::after {
+  box-sizing: border-box;
+
+}
+ul {
+  margin-bottom: 0!important;
+}
+:focus,:active {
+  outline: none;
+}
+a:focus,a:active {
+  outline: none;
+}
+html,body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 0 1200px auto;
+}
+.content__title {
+  span {
+    color: #E5A132;
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+  }
+}
+@import '../fonts/fonts';
+@import '../sass/block/button';
+@import '../sass/block/footer';
+@import '../sass/block/header';
+@import '../sass/block/game';
+
+
+
+
+
+
+
+
+@import '../sass/base/media';
